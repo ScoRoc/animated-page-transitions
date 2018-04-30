@@ -13,6 +13,9 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
+  router: {
+    middleware: 'pages'
+  },
   /*
   ** Customize the progress bar color
   */
@@ -34,5 +37,6 @@ module.exports = {
         })
       }
     }
-  }
+  },
+  // added this to register our middleware
 }
